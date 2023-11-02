@@ -1,0 +1,58 @@
+/* Style the "About" section */
+.about-section {
+    background-color: #faa000; /* Yellow background */
+    padding: 20px;
+    text-align: center;
+    margin: auto; /* Center the section horizontally */
+    max-width: 800px; /* Limit the maximum width of the section */
+}
+
+.about-section h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px; /* Increase the font size */
+    color: #ff4b01;
+}
+
+.about-section p {
+    font-size: 18px; /* Increase the font size */
+    line-height: 1.5;
+    color: #3e4749;
+    margin-top: 10px;
+}
+
+/* Add the "Pacifico" font to the header h1, center it, and adjust size and weight */
+header h1 {
+    font-family: 'Pacifico', cursive, 'Arial', sans-serif;
+    text-align: center; /* Center the text horizontally */
+    line-height: 100px; /* Adjust the line height to vertically center the text */
+    font-size: 48px; /* Increase the font size (adjust to your preference) */
+    font-weight: 800; /* Increase the font weight (adjust to your preference) */
+}
+
+/* Center the navigation links horizontally and style them */
+.nav-container {
+    text-align: center;
+}
+
+/* Style the navigation links */
+.nav-container ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove default list padding */
+}
+
+.nav-container li {
+    display: inline; /* Display the list items inline */
+    margin: 0 20px; /* Add spacing between the links (adjust as needed) */
+}
+
+.nav-container a {
+    color: #3e4749; /* Set the text color to gray */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* Style the section images */
+.section-image {
+    display: block;
+    margin: auto;
+    max-width: 800px; /* Limit the maximum width of the images */
+}
